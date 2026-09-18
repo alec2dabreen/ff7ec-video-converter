@@ -1,0 +1,60 @@
+# ============================================================
+# FF7EC Video Converter
+# ============================================================
+
+# Converter output
+Final/
+Working/
+
+# Converter logs and state
+ff7ec-processed.txt
+ff7ec-file-map.csv
+ff7ec-decryption-log.csv
+ff7ec-failures.csv
+ff7ec-skipped.csv
+
+# Extracted media
+*.ivf
+*.hca
+*.wav
+*.mp4
+*.usm
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# PowerShell temporary files
+*.ps1~
+*.ps1.tmp
+
+# OS generated files
+.DS_Store
